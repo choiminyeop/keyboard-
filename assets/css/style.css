@@ -6,6 +6,12 @@ html, body{
     scroll-behavior: smooth;
 }
 
+.keyboard-content-img{
+    overflow: hidden;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .gray-bg {
 background:#f7f7fd;
 }
