@@ -4635,7 +4635,14 @@ right:20px;
     padding: 2% 0;
     width: 100%;
 }
-
+.about-content{
+    background-image: url(../img/mechanical/top.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
 .rgb-content{
     background-image: url(../img/rgb/rgb-bg.jpg);
     width: 100%;
