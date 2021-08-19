@@ -2072,6 +2072,14 @@ background-size:cover;
 .slider-area .slide-full {
 background-position: center;
 background-size:cover;
+
+}
+.slider-area{
+    background-image: url(../img/hero/h1_hero.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .slider-area .slide-full-content span {
