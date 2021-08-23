@@ -427,6 +427,18 @@ border:1px solid transparent;
 .breadcrumb>.active {
 color:#888;
 }
+.logo-i-m{
+    display: none;
+}
+@media(max-width:415px){
+    .logo-i-m{
+        display: block;
+    }
+    .logo-i{
+        display: none;
+    }
+}
+
 
 #scrollUp,#back-top {
 background:#ff1f1f;
@@ -442,11 +454,12 @@ border-radius:50%;
 line-height:48px;
 border:2px solid transparent;
 box-shadow:0 0 10px 3px rgba(108,98,98,0.2);
+z-index: 999;
 }
 
 #scrollUp a i,#back-top a i {
 display:block;
-line-height:50px;
+line-height:46px;
 }
 
 .sticky-bar {
@@ -2033,9 +2046,7 @@ top:-32px;
 background-color:#FF3D3D!important;
 }
 
-.mobile_menu .slicknav_menu .slicknav_nav {
-margin-top:16px!important;
-}
+
 
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
 background:transparent;

@@ -200,7 +200,6 @@
 .slicknav_nav {
 	background: #fff;
 	float: right;
-	margin-top: 11px;
 	padding: 19px;
 	width: 100%;
 	border-bottom: 1px solid #eee;
@@ -232,15 +231,14 @@
 .slicknav_btn {
 	background-color: transparent;
 	cursor: pointer;
-	margin-bottom: -15px;
 	position: relative;
 	z-index: 99;
 	border: none;
 	border-radius: 3px;
-	top: -23px;
-	padding: 5px;
-	right: 5px;
-	margin-top: -5px;
+  margin-top: -20px;
+}
+.slicknav_nav{
+  position: absolute !important;
 }
 .slicknav_menu .slicknav_icon {
 	margin-right: 6px;
