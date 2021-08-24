@@ -24,36 +24,37 @@ const bg = document.querySelector('.img-scroll');
 //   };
 
 
-var mql = window.matchMedia("screen and (max-width: 1600px)");
+// var mql = window.matchMedia("screen and (min-width: 1600px)");
 
-mql.addListener(function(e) {
-    if(e.matches) {
-        const scrollBg = document.querySelector('.slider-area');
-        window.addEventListener('scroll', function(){
-           scrollBg.style.backgroundSize = 100
-        });
-    } else { 
-        const scrollBg = document.querySelector('.slider-area');
-        window.addEventListener('scroll', function(){
-           scrollBg.style.backgroundSize = 100 - +window.pageYOffset/30+ '%';
-        });;
-    }
-});
-
-
-
+// mql.addListener(function(e) {
+//     if(e.matches) {
+//         const scrollBg = document.querySelector('.slider-area');
+//         window.addEventListener('scroll', function(){
+//            scrollBg.style.backgroundSize = 100 - +window.pageYOffset/30+ '%';
+//         });;
+//     } else { 
+        
+//         const scrollBg = document.querySelector('.slider-area');
+//         window.addEventListener('scroll', function(){
+//            scrollBg.style.backgroundSize = 100
+//         });
+//     }
+// });
 
 
-// if(matchMedia("screen and (min-width: 1024px)").matches){
-//     // 1024px 이상에서 사용할 JavaScript
-//     const scrollBg = document.querySelector('.slider-area');
-//     window.addEventListener('scroll', function(){
-//         scrollBg.style.backgroundSize = 100 - +window.pageYOffset/30+ '%';
-//     });
-// }else{
-//     // 1024px 미만에서 사용할 JavaScript
-//     const scrollBg = document.querySelector('.slider-area');
-//     window.addEventListener('scroll', function(){
-//         scrollBg.style.backgroundSize = 100 - +window.pageYOffset/30+ '%';
-//     })
-// }
+
+
+
+if(matchMedia("screen and (min-width: 1600px)").matches){
+    // 1024px 이상에서 사용할 JavaScript
+    const scrollBg = document.querySelector('.slider-area');
+    window.addEventListener('scroll', function(){
+        scrollBg.style.backgroundSize = 100 - +window.pageYOffset/30+ '%';
+    });
+}else{
+    // 1024px 미만에서 사용할 JavaScript
+    const scrollBg = document.querySelector('.slider-area');
+    window.addEventListener('scroll', function(){
+        scrollBg.style.backgroundSize = 100 ;
+    })
+}

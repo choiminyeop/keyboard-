@@ -2656,7 +2656,7 @@ color:#014b85;
 -moz-transform:scale(1.04);
 -ms-transform:scale(1.04);
 transform:scale(1.04);
-transition: 0.3s;
+transition: all 0.3s linear;
 }
 
 .home-blog-single:hover .blog-img-cap .blog-cap {
