@@ -3365,10 +3365,35 @@ padding-bottom:48px;
 .comments-area .comment-list:last-child {
 padding-bottom:0;
 }
-
+.about-content-img-2>img{
+    width: 100%;
+}
 .comments-area .thumb img {
 width:70px;
 border-radius:50%;
+}
+
+.about-content-text-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 150px 60px 60px;
+}
+
+.about-content-text-box>h1{
+    font-size: 30px !important;
+}
+.about-content-text-box>p{
+    font-size: 16px !important;
+}
+
+@media(max-width:768px){
+    .m-flex-column-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 .comments-area .date {
