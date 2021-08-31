@@ -4279,7 +4279,7 @@ background:#ff1f1f;
 color:#fff;
 }
 
-.theme-color,.service-area .services-caption .service-cap h4 a:hover,.services-caption:hover .service-icon i,.footer-area .footer-bottom .footer-copy-right p i,.footer-area .footer-bottom .footer-copy-right p a,.home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a:hover {
+.theme-color,.service-area .services-caption .service-cap h4 a:hover,.services-caption:hover .service-icon i,.footer-area .footer-bottom .footer-copy-right p i,.footer-area .footer-bottom .footer-copy-right p a:hover {
 color:#ff1f1f;
 }
 
@@ -4979,7 +4979,9 @@ right:20px;
 
 
 
-
+.blog-cap>h3>a{
+    cursor: default !important;
+}
 
 
 
